@@ -1,0 +1,24 @@
+{
+  "testValidScenario": {
+    "firstUser": {
+      "nickName": "test1",
+      "email": "test1"
+    }
+  },
+  "testInValidScenario_makeMoveUsingUsedCoordinates_shouldNotBeAccepted": {
+    "firstUser": {
+      "nickName": "test2",
+      "email": "test2"
+    }
+  },
+  "testInValidScenario_connectToInvalidGame_shouldNotBeAccepted": {
+    "firstUser": {
+      "nickName": "test3",
+      "email": "test3"
+    },
+    "secondUser": {
+      "nickName": "test4",
+      "email": "test4"
+    }
+  }
+}
